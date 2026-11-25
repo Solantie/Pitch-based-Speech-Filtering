@@ -14,7 +14,7 @@ Language learners often practice with prerecorded dialogues and manually pause t
 
 The MATLAB GUI supports loading a recording, choosing a masking strategy and voice to retain, adjusting pitch-related parameters, inspecting the original/filtered waveforms and F0 contour, listening to both recordings, and exporting the processed audio.
 
-![MATLAB GUI showing masking controls and signal visualizations](results/gui_screenshot.png)
+![MATLAB GUI showing masking controls and signal visualizations](figures/UI_intro.png)
 
 ## Methods
 
@@ -48,7 +48,7 @@ The screenshots below are taken from the project presentation and show the same 
 
 | Frame-level | Segment-level |
 | --- | --- |
-| ![Frame-level GUI output](results/frame_level_result.png) | ![Segment-level GUI output](results/segment_level_result.png) |
+| ![Frame-level GUI output](figures/001_frame_female_results.png) | ![Segment-level GUI output](figures/001_segment_female_results.png) |
 
 **Qualitative observation:** Segment-level masking produced more continuous speech and reduced the fragmented artifacts heard in the frame-level output. This is an observation from listening and visualization, **not a benchmarked accuracy or speed claim**.
 
@@ -72,9 +72,9 @@ The screenshots below are taken from the project presentation and show the same 
 - MATLAB with **Audio Toolbox** (`pitch`, `detectSpeech`, `harmonicRatio`).
 - Your own audio input compatible with `audioread`.
 
-**To run:** Add your MATLAB scripts or GUI source to [`src/`](src/) and [`app/`](app/) as described in those folders, open the appropriate file in MATLAB, and select a local audio recording. The uploaded materials currently include the documentation and screenshots; **the runnable MATLAB code has not been packaged because source files were not provided**.
+**To run:** Add your MATLAB scripts or GUI source to [`app/`](app/) as described in those folders, open the appropriate file in MATLAB, and select a local audio recording. 
 
-The original German textbook audio is not redistributed in this repository.
+Four test audios were provided.
 
 ## Repository layout
 
