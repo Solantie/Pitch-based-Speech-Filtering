@@ -1,0 +1,22 @@
+# MATLAB temporary and backup files
+*.asv
+*.autosave
+*.m~
+slprj/
+codegen/
+*.mex*
+
+# Local audio and experiment data (except curated examples)
+*.mp3
+*.wav
+*.flac
+*.mat
+!examples/audio/*.wav
+!examples/audio/*.mp3
+!examples/audio/*.flac
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
